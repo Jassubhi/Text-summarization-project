@@ -1,0 +1,19 @@
+{% extends "text/base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+<style>
+ body{
+  background-image: url('/media/voice_recognition.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
+<h4 style="color:DodgerBlue;" >Welcome to Voice Assistant</h4>
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input style="color:DodgerBlue;height:100px;width:400px;background-color: #33FFD8;" type="submit" class="tn btn-secondary btn-lg btn-block" name="voiceBtn" value ="Click Here!">
+    <p>{{print_data}}</p>
+</form>
+
+{% endblock content %}

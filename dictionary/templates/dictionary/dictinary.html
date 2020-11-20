@@ -1,0 +1,38 @@
+{% extends "text/base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+<style>
+ body{
+  background-image: url('/media/diction.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <div class="jumbotron">
+        <h1>English Dictionary</h1>
+        <form method="post">
+            {% csrf_token %}
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Search word</label>
+                    {{ meaningform.word }}
+                    <small id="emailHelp" class="form-text text-muted">We'll return the meaning of the word for you</small>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </form>
+    </div>
+    {% if response_list %}
+        {% for meaning in response_list %}
+            {{ meaning }}<br>
+        {% endfor %}
+    {% endif %}
+    {% if response %}
+        {{ response }}
+    {% endif %}
+</form>
+
+{% endblock content %}

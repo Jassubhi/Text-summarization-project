@@ -1,0 +1,29 @@
+{% extends "text/base.html" %}
+{% block content %}
+
+<h2>Summary</h2>
+<form method ="POST" >
+    {% csrf_token %}
+    <button onclick="myFunction()">Display Topics</button>
+    <br/>
+    <br/>
+    <label>Topics</label>
+    <select name="topic">
+    {% for topic in topics %}
+    <option value="{{ topic }}">{{topic}}</option>
+    {% endfor %}
+     </select>
+    <br/>
+    <br/>
+     <button type="submit">Question</button>
+    <br/>
+    {{ que }}
+    <br/>
+    <button type="submit">Answer</button>
+    <br/>
+    {{ ans }}
+    <br/>
+
+</form>
+
+{% endblock content %}

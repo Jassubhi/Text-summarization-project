@@ -8,12 +8,16 @@ h1, h2, h3, h4, h5, h6 {
   color: #444444;
 }
 
+submit{
+    color: #444444;
+}
+
 ul {
   margin: 0;
 }
 
 .bg-steel {
-  background-color: #5f788a;
+  background-color: #000080;
 }
 
 .site-header .navbar-nav .nav-link {
@@ -21,7 +25,7 @@ ul {
 }
 
 .site-header .navbar-nav .nav-link:hover {
-  color: #ffffff;
+  color: #000080;
 }
 
 .site-header .navbar-nav .nav-link.active {
@@ -29,9 +33,11 @@ ul {
 }
 
 .content-section {
-  background: #ffffff;
+  background: #fafafa;
+  height: 60px;
   padding: 10px 20px;
-  border: 1px solid #dddddd;
+
+  border: none;
   border-radius: 3px;
   margin-bottom: 20px;
 }
@@ -82,3 +88,43 @@ a.article-title:hover {
 .account-heading {
   font-size: 2.5rem;
 }
+
+.btn{
+background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn1{
+background-color: #00cc00;
+  border: 10px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.bg-img{
+    background-image: url('media/book_education.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+
+

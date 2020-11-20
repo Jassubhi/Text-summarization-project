@@ -19,6 +19,10 @@ from django.contrib.auth import views as auth_views
 from django.conf import settings
 from django.conf.urls.static import static
 from users import views as user_views
+from upload import views as upload_views
+from voice import views as voice_views
+from text import views as text_views
+from dictionary import views as dictionary_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -27,6 +31,10 @@ urlpatterns = [
     path('login/', auth_views.LoginView.as_view(template_name='users/login.html'), name='login'),
     path('logout/', auth_views.LogoutView.as_view(template_name='users/logout.html'), name='logout'),
     path('text_home/', include('text.urls')),
+    path('upload/', upload_views.upload, name='upload'),
+    path('upload_list/', upload_views.upload_list, name='upload_list'),
+    path('voice/', voice_views.voice, name='voice'),
+    path('dictionary/', dictionary_views.dictionary, name='dictionary'),
 ]
 
 if settings.DEBUG:

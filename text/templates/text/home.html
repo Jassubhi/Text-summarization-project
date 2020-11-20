@@ -1,29 +1,94 @@
 {% extends "text/base.html" %}
 {% block content %}
+<style>
+ .submit {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    background-color: red;
+    }
+ body {
+  background-image: url('media/book_education.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
 
-    <h2>Document Upload</h2>
-       <form method ="post" enctype="multipart/form-data">
+    <h4>Summarize Your Answer</h4>
+       <form id="home_page" method ="post" enctype="multipart/form-data">
            {% csrf_token %}
-           <input type="file" name="documents" >
-           <button type="submit">Upload file</button>
+           <input type="file" name="documents" class="form-control">
            <br/>
-           <script>
-            function readURL(input) {
-            if (input.files && input.files[0]) {
-                var reader = new FileReader();
+           <input type="submit" name="uploadFile" value="Upload File" class="btn btn-secondary btn-lg btn-block">
+           <br/>
+           <br/>
+            {% if context%}
+            <p> Uploaded file:<a href ="{{ context }}"> {{ context }}</a></p>
+           {% endif %}
+    <br/>
+    <br/>
+    <label>Topics</label>
+    <select name="selectedTopic" class="form-control">
+    {% for topic in topics %}
+    <option value="{{ topic }}">{{topic}}</option>
+    {% endfor %}
+    </select>
+    <br/>
+    <input type="submit" name="submittedTopic" value="Select" class = "btn btn-secondary btn-lg btn-block">
+    <br/>
+    <br/>
+     <input type="submit" name="generateQuestion" value="Questions" class="btn btn-secondary btn-lg btn-block">
+    <br/>
+           <br/>
+        {% if Questions %}
+      <select name="QuestionsList">
+        {% for quest in Questions%}
+      <option value="{{ quest }}" class="form-control">{{ quest }}</option>
+        {% endfor %}
+      </select>
+        {% endif %}
+           <br/>
+    <br/>
+    <input type="submit" name="selectedQuestion" value="Select" class ="btn btn-secondary btn-lg btn-block">
+    <br/>
+          <br/>
+    <input type="submit" name="generateAnswer" value="Answer" class = "btn btn-secondary btn-lg btn-block">
+    <br/>
+        {% if Answer %}
+        {{ Answer }}
+        {% endif %}
+    <br/>
 
-                reader.onload = function (e) {
-                    $('#blah')
-                        .attr('src', e.target.result);
-                };
+    <input type="submit" name="SpeechAnswer" value="Narrate Answer" class="btn btn-secondary btn-lg btn-block">
 
-                reader.readAsDataURL(input.files[0]);
-            }
-        }
-           </script>
-           <br/>
-           <button type="submit">Summarize</button><br/>
-           <br/>
-           <textarea class="form-control" rows="10" cols="50"></textarea>
+    <input type="submit" name="generateSummary" value="Summarize" class="btn btn-secondary btn-lg btn-block">
+    <br/>
+      {%if Summarized_Answer%}
+      {{ Summarized_Answer }}
+      {% endif %}
        </form>
+
+        <!--<button onclick="location.href='summary/'">Summary</button> -->
+<script type="text/javascript">
+    $(document).on('submit','#home_page,function(e){
+        e.preventDefault();
+
+        $.ajax({
+            type:'POST',
+            url:'http://127.0.0.1:8000/text_home/',
+            data:{
+                doc: ${'#doc'}.val(),
+                topics: ${'#topics'}.val(),
+                Questions: ${'#Questions'}.val(),
+                ans: ${'#ans'}.val(),
+                summarized_answer: ${'#summarized_answer'}.val(),
+                csrfmiddlewaretoken: "{{ csrf_token }}"
+            },
+            success:function(){
+                alert("success");
+        });
+    });
+
+</script>
 {% endblock content %}

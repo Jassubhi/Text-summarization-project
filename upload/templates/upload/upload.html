@@ -1,0 +1,28 @@
+{% extends "text/base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+<style>
+    body {
+      width: 100%;
+      height: 200px;
+      background-color: #b3e0ff;
+    }
+  </style>
+<h4>Upload Section</h4>
+<table>
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form.as_p }}
+<br/>
+<input type="submit" name="uploadFile" value="Upload File" class="btn btn-secondary btn-lg btn-block">
+   <br/>
+    {{row}}
+</form>
+</table>
+{% if uploaded_file_url %}
+<p>File uploaded at: <a href="{{ uploaded_file_url }}">{{ uploaded_file_url }}</a></p>
+{% endif %}
+
+
+
+{% endblock content %}
