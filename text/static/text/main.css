@@ -126,5 +126,12 @@ background-color: #00cc00;
   background-size: 100% 100%;
 }
 
+.card {
+  width: 400px;
+  border: none;
+  border-radius: 10px;
+  background-color: #fff
+}
+
 
 

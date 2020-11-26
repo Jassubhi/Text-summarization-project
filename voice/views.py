@@ -80,7 +80,6 @@ def respond(voice_data):
         ray_speak('Here is the location of ' + location)
         return location
     if 'PDF' in voice_data:
-        ray_speak("Which pdf do you want to open")
         pdf = record_audio("Which pdf do you want to open")
         ray_speak("opening pdf")
         power = settings.MEDIA_ROOT + "\\" + pdf + ".pdf"

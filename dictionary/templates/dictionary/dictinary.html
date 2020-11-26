@@ -21,10 +21,11 @@
                     {{ meaningform.word }}
                     <small id="emailHelp" class="form-text text-muted">We'll return the meaning of the word for you</small>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary">Submit</button></form>
+            <br>
             </form>
         </form>
-    </div>
+
     {% if response_list %}
         {% for meaning in response_list %}
             {{ meaning }}<br>
@@ -33,6 +34,7 @@
     {% if response %}
         {{ response }}
     {% endif %}
+        </div>
 </form>
 
 {% endblock content %}

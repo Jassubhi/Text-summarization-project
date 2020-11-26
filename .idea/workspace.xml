@@ -2,111 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6204071d-be19-4302-b7c2-9d92ec7c88b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio-1591728.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio-2073577.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio-3378076.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio-3510047.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio-3586742.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio-376179.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio-445913.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio-4748670.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio-5098564.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio-5154808.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio-5991835.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio-61272.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio-625999.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio-6490575.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio-6540300.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio-6603958.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio-7178056.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio-7274215.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio-781407.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio-7907369.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio-8279575.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio-8360800.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio-8443421.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio-8685111.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio-9179886.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio-9189687.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio-9361794.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio-9415714.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio-9717570.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio-9730673.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dictionary/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dictionary/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dictionary/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dictionary/data/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dictionary/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dictionary/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dictionary/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dictionary/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dictionary/templates/dictionary/dictinary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dictionary/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dictionary/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/Indian history.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/Indian history_CW9m442.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/Indian history_FK6SuqS.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/Indian history_KOFjuf2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/Indian history_NuAPKOb.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/Indian history_ZLmjP5u.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/Indian history_rAnpRIX.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/Indian_History.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/Indian_History_EzvW8IH.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/Indian_History_L8MrMJ4.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/Indian_History_mPCyc72.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/Indian_History_uF73q7T.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/Indian_History_yAtsXBs.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/Indian_history_0vgHrFo.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/Indian_history_1J8argu.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/Indian_history_FiVLaRA.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/Indian_history_K6v8O3h.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/Indian_history_QxD2u75.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/Java_Collection_Cheatsheet_v1.1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/Java_Collection_Cheatsheet_v1.1_X7XGJ7e.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/Java_Collection_Cheatsheet_v1.1_yaEZaa0.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/Text Summarization Sprint 2.pptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/book_education.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/diction.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/voice_recognition.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text/database_conn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text/templates/text/welcome.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/migrations/0002_document_username.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/migrations/0003_auto_20201025_2252.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/static/upload/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/templates/upload/upload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/templates/upload/upload_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/voice/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/voice/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/voice/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/voice/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/voice/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/voice/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/voice/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/voice/voice_recognition.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/Indian history_Oc4hasi.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/Indian history_yn7xgO0.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/Indian_history_XiUUQHY.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/default.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/defualt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/migrations/0004_auto_20201125_1707.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/migrations/0002_auto_20201125_1434.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/migrations/0003_auto_20201125_1548.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/signals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/templates/users/password_reset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/templates/users/password_reset_complete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/templates/users/password_reset_confirm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/templates/users/password_reset_done.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/text/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/text/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dictionary/templates/dictionary/dictinary.html" beforeDir="false" afterPath="$PROJECT_DIR$/dictionary/templates/dictionary/dictinary.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/text/static/text/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/text/static/text/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/templates/text/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/text/templates/text/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/templates/text/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/text/templates/text/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/text/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/text/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/text/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/text_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/text_project/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/text_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/text_project/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/apps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/templates/users/logout.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/logout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/templates/users/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/templates/users/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voice/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/voice/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,18 +60,19 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/media" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/users/templates/users" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\text_project\voice" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\text_project\users\templates\users" />
       <recent name="F:\text_project\media" />
+      <recent name="F:\text_project" />
       <recent name="F:\text_project\dictionary\data" />
       <recent name="F:\text_project\dictionary" />
-      <recent name="F:\text_project\voice\media" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\text_project\voice" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -177,9 +100,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="352" y="38" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604870599068" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1605733122129">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1606333164714">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1605733122129" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1606333164714" />
   </component>
 </project>
