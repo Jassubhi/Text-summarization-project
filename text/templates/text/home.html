@@ -7,6 +7,10 @@
     border-collapse: collapse;
     background-color: red;
     }
+  .boxed {
+  border: 1px solid black ;
+  background-color: white;
+  }
  body {
   background-image: url('media/book_education.jpg');
   background-repeat: no-repeat;
@@ -55,18 +59,22 @@
           <br/>
     <input type="submit" name="generateAnswer" value="Answer" class = "btn btn-secondary btn-lg btn-block">
     <br/>
+           <div class="boxed">
         {% if Answer %}
         {{ Answer }}
         {% endif %}
+           </div>
     <br/>
 
     <input type="submit" name="SpeechAnswer" value="Narrate Answer" class="btn btn-secondary btn-lg btn-block">
 
     <input type="submit" name="generateSummary" value="Summarize" class="btn btn-secondary btn-lg btn-block">
     <br/>
+           <div class="boxed">
       {%if Summarized_Answer%}
       {{ Summarized_Answer }}
       {% endif %}
+               </div>
        </form>
 
         <!--<button onclick="location.href='summary/'">Summary</button> -->

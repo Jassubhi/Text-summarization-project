@@ -2,33 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6204071d-be19-4302-b7c2-9d92ec7c88b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/media/Indian history_Oc4hasi.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/Indian history_yn7xgO0.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/Indian_history_XiUUQHY.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/default.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/defualt.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/migrations/0004_auto_20201125_1707.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/migrations/0002_auto_20201125_1434.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/migrations/0003_auto_20201125_1548.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/signals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/templates/users/password_reset.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/templates/users/password_reset_complete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/templates/users/password_reset_confirm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/templates/users/password_reset_done.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/Indian history_5frzbC6.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/Indian history_gc2ZLqX.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/Indian_history_G5bUdWe.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dictionary/templates/dictionary/dictinary.html" beforeDir="false" afterPath="$PROJECT_DIR$/dictionary/templates/dictionary/dictinary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/static/text/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/text/static/text/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/text_project/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/text_project/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/templates/users/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voice/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/voice/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/templates/text/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/text/templates/text/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,9 +78,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="352" y="38" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604870599068" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1606333164714">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1606772709519">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1606333164714" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1606772709519" />
   </component>
 </project>
